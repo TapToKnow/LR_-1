@@ -104,13 +104,6 @@ namespace LR__1
             this.Controls.Add(searchByArtistButton);
             this.Controls.Add(sortByYearButton);
         }
-        [STAThread]
-        static void Main()
-        {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MusicCollectionForm());
-        }
     }
 
 }
